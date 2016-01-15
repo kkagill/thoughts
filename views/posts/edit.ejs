@@ -17,7 +17,6 @@
 <!-- views/posts/index.ejs -->
 <div class="edit">
   <h3>Edit Post</h3>
-  <!-- method=put 이라서 app.js의 app.put으로간다. redirect 되어서 /posts로 간다. -->
   <form class="posts_form" action="/posts/<%=data._id%>?_method=put" method="post">
     <label>Title</label>
     <input type="text" class="form-control" name="post[title]" value="<%=data.title%>">
