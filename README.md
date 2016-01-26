@@ -1,4 +1,7 @@
 # thoughts
-Developed a personal project that people can post their daily thoughts on the bulletin board. Used RESTful API (GET, POST, PUT, DELETE). It was a good practice to study back-end while storing contents via mongoDB. Used nodeJS, Express, EJS, CSS, and mongoose. Deployed using heroku. 
+
+-	Developed a personal project that allows people to post daily thoughts on the bulletin board. 
+-	Used RESTful API that resources are identified by a persistent identifier and being manipulated using a common set of verbs.
+-	Technologies involved EJS, CSS, Node.js, Express, and mongoose. Deployed using Heroku.
  
  https://warm-plains-4954.herokuapp.com/posts
